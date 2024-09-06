@@ -12,7 +12,7 @@ class Background
   static int index = 1;
   static String? userId;
 
-  static final hubConnection = HubConnectionBuilder().withUrl('https://kursdefteri.com.tr/ip-hub').build();
+  static final hubConnection = HubConnectionBuilder().withUrl('').build();
   static FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin = FlutterLocalNotificationsPlugin();
 
   static const android = AndroidNotificationDetails(
